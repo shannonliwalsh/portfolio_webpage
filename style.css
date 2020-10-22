@@ -13,7 +13,6 @@ header {
 }
 
 
-
 header::after {
   content:"";
   display:table;
@@ -158,11 +157,6 @@ background-color:#d4a299;
 
 .row {
   margin:20px -16px;
-}
-
-.row,
-.row > .column {
-  padding: 8px;
 }
 
 .column {
