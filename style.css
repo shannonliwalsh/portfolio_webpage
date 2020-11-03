@@ -1,41 +1,13 @@
-.container {
-  width: 100%;
-  margin: 0 auto;
-}
-
-header {
-  padding-top: 50px;
-  padding-bottom: 40px; 
-} 
-
-
-header::after {
-  content:"";
-  display:table;
-  clear: both; 
-}
-
-
-#logo {
-  float:left;
-  text-align: left;
-  position: fixed;
-  left:10px;
-  top:2.5;
-  width:55px;
-  height:auto;
-  padding: 10px 0;
-  border-radius: 50%;
-  z-index: 150;
-}
-
 
 #navbar {
-  float: right;
-  text-align: right;
+  display: flex;
+ justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
   position: fixed;
-  right: 0;
-  top: 0px;
+  margin-top:0;
+  top:0px;
+  right:0px;
   width: 100%;
   height: auto;
   padding:0;
@@ -43,24 +15,29 @@ header::after {
   box-shadow: 0 5px 4px rgba(0,0,0,0.5);
 }
 
+#logo {
+  justify-content: flex-start;
+  position: fixed;
+  left:10px;
+  width:55px;
+  height:auto;
+  padding: 7px 0;
+  border-radius: 50%;
+  z-index: 150;
+}
+
 
 .nav__list {
-  margin: 10;
-  padding: 0;
+  justify-content: center;
   list-style:none;
 }
 
 .nav__item {
   display: inline-block;
-  right: 5%;
-  margin-left: 40px;
-  padding-top: 10px;
-  padding-bottom:10px;
   font-family: system-ui;
-  
-  position:relative;
+  justify-content: space-between;
+  margin: 0 50;
 }
-
 
 .nav__link {
   display: inline-block;
@@ -77,8 +54,35 @@ header::after {
   color:white;
   border-radius:20px;
   transition:0.2s;
-  background-color:#d4a299;
+  background-color:rgb(198,115,99);
   box-shadow: 0 5px 4px rgba(0,0,0,0.5);
+}
+
+/* .burger {
+  display:none;
+} */
+
+.burger {
+  display: block;
+  justify-content: flex-end;
+  position: fixed;
+  right:1.5%;
+}
+
+.burger div{
+  justify-content: flex-end;
+  align-items: center;
+  width: 25px;
+  height: 3px;
+  background-color: rgb(198,115,99); 
+  margin:5px;
+}
+
+
+@media screen and (max-width:768px){
+  body{
+    display:none;
+  }
 }
 
 
@@ -93,7 +97,7 @@ body {
 #welcome-section {
   background:white;
   text-align:center;
-  margin-top: 10%;
+  margin-top: 14%;
   padding-top: 0px;
   padding-bottom: 25px;
 }
@@ -102,7 +106,7 @@ body {
 #welcome-section span {
   font-family: system-ui;
   font-style: italic;
-  color: #d4a299; 
+  color: rgb(198,115,99); 
 }
 
 h1 {
@@ -230,7 +234,7 @@ align: center;
   padding: 10px;
   border-radius: 20px;
   transition:0.2s;
-  background-color: #d4a299;
+  background-color: rgb(198,115,99);
   box-shadow: 0 5px 4px rgba(0,0,0,0.5);
   color: white; 
 }
