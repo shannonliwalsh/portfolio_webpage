@@ -112,16 +112,16 @@ body {
 
 h1 {
   padding-top:100px;
-  font-size: 40px;
+  font-size: 50px;
 }
 
 h2 {
-  font-size: 18px;
+  font-size: 22px;
   margin:0%;
 }
 
 h3 {
-  font-size: 18px;
+  font-size: 22px;
   padding-bottom: 100px;
 }
 
@@ -139,12 +139,12 @@ h3 {
   text-transform:uppercase;
   font-size: 3.3vw;
   color:  #d4a299;
-  -webkit-text-stroke: 0.10vw #d4a299;
+  -webkit-text-stroke: 0.10vw white;
   box-shadow: 10px 10px 10px 0px;
   z-index: -1;
 }
 
-.section__title::before {
+/*.section__title::before {
   content: attr(data-text);
   position: absolute;
   padding: 150px 0 0;
@@ -171,7 +171,7 @@ h3 {
    {
     width:100%;
   }
-}
+}*/
 
 
 .project-tile {
