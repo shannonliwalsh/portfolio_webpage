@@ -57,9 +57,6 @@
   box-shadow: 0 5px 4px rgba(0,0,0,0.5);
 }
 
-/* .burger {
-  display:none;
-} */
 
 .burger {
   display: block;
@@ -77,6 +74,9 @@
   margin:5px;
 }
 
+/*.burger {
+  display:none;
+}*/
 
 @media screen and (max-width:768px){
   body{
@@ -176,7 +176,6 @@ h3 {
 
 .project-tile {
 margin-top: 100px;
-margin-bottom: 0px;
 font-family:'Poppins', sans-serif;
 color: #d4a299;
 font-size: 14vw;
@@ -240,7 +239,7 @@ width: 200px;
   text-transform:uppercase;
   justify-content: center;
   font-size: 3.3vw;
-  padding:100px 0 50px;
+  padding:90px 0 50px;
   color:  #d4a299;
   -webkit-text-stroke: 0.10vw white;
   box-shadow: 10px 10px 10px 0px;
