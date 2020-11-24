@@ -176,7 +176,7 @@ h3 {
 
 .project-tile {
 margin-top: 100px;
-margin-bottom: 60px;
+margin-bottom: 0px;
 font-family:'Poppins', sans-serif;
 color: #d4a299;
 font-size: 14vw;
@@ -185,6 +185,13 @@ text-transform:uppercase;
 letter-spacing: 6px;
 padding:40px;
 background-color:#d4a299; 
+}
+
+
+.project-tile img {
+size: 10vw;
+height: auto;
+width: 200px;
 }
 
 .main {
@@ -249,7 +256,7 @@ background-color:#d4a299;
   padding-top: 0%;
   width:315px;
   z-index: -1;
- height:auto; 
+  height:auto; 
   box-shadow: 0 5px 4px rgba(0,0,0,0.5);
   border-radius: 10px;
 }
